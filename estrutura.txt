@@ -1,0 +1,1398 @@
+Listagem de caminhos de pasta
+O número de série do volume é 120D-3F37
+C:.
+¦   Comandos docker.txt
+¦   docker-compose.yml
+¦   Dockerfile
+¦   estrutura.txt
+¦   README.md
+¦   
++---www
+    ¦   index.php
+    ¦   
+    +---codeigniter4
+        ¦   .env
+        ¦   composer.json
+        ¦   LICENSE
+        ¦   phpunit.xml.dist
+        ¦   preload.php
+        ¦   projeto.sql
+        ¦   README.md
+        ¦   spark
+        ¦   
+        +---app
+        ¦   ¦   .htaccess
+        ¦   ¦   Common.php
+        ¦   ¦   index.html
+        ¦   ¦   
+        ¦   +---Config
+        ¦   ¦   ¦   App.php
+        ¦   ¦   ¦   Autoload.php
+        ¦   ¦   ¦   Cache.php
+        ¦   ¦   ¦   Constants.php
+        ¦   ¦   ¦   ContentSecurityPolicy.php
+        ¦   ¦   ¦   Cookie.php
+        ¦   ¦   ¦   Cors.php
+        ¦   ¦   ¦   CURLRequest.php
+        ¦   ¦   ¦   Database.php
+        ¦   ¦   ¦   DocTypes.php
+        ¦   ¦   ¦   Email.php
+        ¦   ¦   ¦   Encryption.php
+        ¦   ¦   ¦   Events.php
+        ¦   ¦   ¦   Exceptions.php
+        ¦   ¦   ¦   Feature.php
+        ¦   ¦   ¦   Filters.php
+        ¦   ¦   ¦   ForeignCharacters.php
+        ¦   ¦   ¦   Format.php
+        ¦   ¦   ¦   Generators.php
+        ¦   ¦   ¦   Honeypot.php
+        ¦   ¦   ¦   Images.php
+        ¦   ¦   ¦   Kint.php
+        ¦   ¦   ¦   Logger.php
+        ¦   ¦   ¦   Migrations.php
+        ¦   ¦   ¦   Mimes.php
+        ¦   ¦   ¦   Modules.php
+        ¦   ¦   ¦   Optimize.php
+        ¦   ¦   ¦   Pager.php
+        ¦   ¦   ¦   Paths.php
+        ¦   ¦   ¦   Publisher.php
+        ¦   ¦   ¦   Routes.php
+        ¦   ¦   ¦   Routing.php
+        ¦   ¦   ¦   Security.php
+        ¦   ¦   ¦   Services.php
+        ¦   ¦   ¦   Session.php
+        ¦   ¦   ¦   Toolbar.php
+        ¦   ¦   ¦   UserAgents.php
+        ¦   ¦   ¦   Validation.php
+        ¦   ¦   ¦   View.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Boot
+        ¦   ¦           development.php
+        ¦   ¦           production.php
+        ¦   ¦           testing.php
+        ¦   ¦           
+        ¦   +---Controllers
+        ¦   ¦       Admin.php
+        ¦   ¦       BaseController.php
+        ¦   ¦       Carrinho.php
+        ¦   ¦       Categorias.php
+        ¦   ¦       Cidades.php
+        ¦   ¦       Cidades2.php
+        ¦   ¦       Clientes.php
+        ¦   ¦       Enderecos.php
+        ¦   ¦       Entregas.php
+        ¦   ¦       Estoques.php
+        ¦   ¦       Funcionario.php
+        ¦   ¦       Funcionarios.php
+        ¦   ¦       Home.php
+        ¦   ¦       Imgprodutos.php
+        ¦   ¦       Itens_venda.php
+        ¦   ¦       Login.php
+        ¦   ¦       Pedidos.php
+        ¦   ¦       Produtos.php
+        ¦   ¦       Relatorios.php
+        ¦   ¦       User.php
+        ¦   ¦       Usuarios.php
+        ¦   ¦       Vendas.php
+        ¦   ¦       
+        ¦   +---Database
+        ¦   ¦   +---Migrations
+        ¦   ¦   ¦       .gitkeep
+        ¦   ¦   ¦       2025-04-23-000001_Categorias.php
+        ¦   ¦   ¦       2025-04-23-000002_Cidades.php
+        ¦   ¦   ¦       2025-04-23-000003_Usuarios.php
+        ¦   ¦   ¦       2025-04-23-000004_Produtos.php
+        ¦   ¦   ¦       2025-04-23-000005_ImgProdutos.php
+        ¦   ¦   ¦       2025-05-25-213955_Vendas.php
+        ¦   ¦   ¦       2025-05-25-214033_Clientes.php
+        ¦   ¦   ¦       2025-05-25-214058_Funcionarios.php
+        ¦   ¦   ¦       2025-05-25-214128_Pedidos.php
+        ¦   ¦   ¦       2025-05-25-214137_Estoque.php
+        ¦   ¦   ¦       2025-05-25-214151_Entregas.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Seeds
+        ¦   ¦           .gitkeep
+        ¦   ¦           
+        ¦   +---Filters
+        ¦   ¦       .gitkeep
+        ¦   ¦       AuthNivel.php
+        ¦   ¦       
+        ¦   +---Helpers
+        ¦   ¦       .gitkeep
+        ¦   ¦       functions_helper.php
+        ¦   ¦       
+        ¦   +---Language
+        ¦   ¦   ¦   .gitkeep
+        ¦   ¦   ¦   
+        ¦   ¦   +---en
+        ¦   ¦           Validation.php
+        ¦   ¦           
+        ¦   +---Libraries
+        ¦   ¦   ¦   .gitkeep
+        ¦   ¦   ¦   RelatorioPDF.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---fpdf
+        ¦   ¦       ¦   changelog.htm
+        ¦   ¦       ¦   FAQ.htm
+        ¦   ¦       ¦   fpdf.css
+        ¦   ¦       ¦   fpdf.php
+        ¦   ¦       ¦   install.txt
+        ¦   ¦       ¦   license.txt
+        ¦   ¦       ¦   
+        ¦   ¦       +---doc
+        ¦   ¦       ¦       acceptpagebreak.htm
+        ¦   ¦       ¦       addfont.htm
+        ¦   ¦       ¦       addlink.htm
+        ¦   ¦       ¦       addpage.htm
+        ¦   ¦       ¦       aliasnbpages.htm
+        ¦   ¦       ¦       cell.htm
+        ¦   ¦       ¦       close.htm
+        ¦   ¦       ¦       error.htm
+        ¦   ¦       ¦       footer.htm
+        ¦   ¦       ¦       getpageheight.htm
+        ¦   ¦       ¦       getpagewidth.htm
+        ¦   ¦       ¦       getstringwidth.htm
+        ¦   ¦       ¦       getx.htm
+        ¦   ¦       ¦       gety.htm
+        ¦   ¦       ¦       header.htm
+        ¦   ¦       ¦       image.htm
+        ¦   ¦       ¦       index.htm
+        ¦   ¦       ¦       line.htm
+        ¦   ¦       ¦       link.htm
+        ¦   ¦       ¦       ln.htm
+        ¦   ¦       ¦       multicell.htm
+        ¦   ¦       ¦       output.htm
+        ¦   ¦       ¦       pageno.htm
+        ¦   ¦       ¦       rect.htm
+        ¦   ¦       ¦       setauthor.htm
+        ¦   ¦       ¦       setautopagebreak.htm
+        ¦   ¦       ¦       setcompression.htm
+        ¦   ¦       ¦       setcreator.htm
+        ¦   ¦       ¦       setdisplaymode.htm
+        ¦   ¦       ¦       setdrawcolor.htm
+        ¦   ¦       ¦       setfillcolor.htm
+        ¦   ¦       ¦       setfont.htm
+        ¦   ¦       ¦       setfontsize.htm
+        ¦   ¦       ¦       setkeywords.htm
+        ¦   ¦       ¦       setleftmargin.htm
+        ¦   ¦       ¦       setlinewidth.htm
+        ¦   ¦       ¦       setlink.htm
+        ¦   ¦       ¦       setmargins.htm
+        ¦   ¦       ¦       setrightmargin.htm
+        ¦   ¦       ¦       setsubject.htm
+        ¦   ¦       ¦       settextcolor.htm
+        ¦   ¦       ¦       settitle.htm
+        ¦   ¦       ¦       settopmargin.htm
+        ¦   ¦       ¦       setx.htm
+        ¦   ¦       ¦       setxy.htm
+        ¦   ¦       ¦       sety.htm
+        ¦   ¦       ¦       text.htm
+        ¦   ¦       ¦       write.htm
+        ¦   ¦       ¦       __construct.htm
+        ¦   ¦       ¦       
+        ¦   ¦       +---font
+        ¦   ¦       ¦       courier.php
+        ¦   ¦       ¦       courierb.php
+        ¦   ¦       ¦       courierbi.php
+        ¦   ¦       ¦       courieri.php
+        ¦   ¦       ¦       helvetica.php
+        ¦   ¦       ¦       helveticab.php
+        ¦   ¦       ¦       helveticabi.php
+        ¦   ¦       ¦       helveticai.php
+        ¦   ¦       ¦       symbol.php
+        ¦   ¦       ¦       times.php
+        ¦   ¦       ¦       timesb.php
+        ¦   ¦       ¦       timesbi.php
+        ¦   ¦       ¦       timesi.php
+        ¦   ¦       ¦       zapfdingbats.php
+        ¦   ¦       ¦       
+        ¦   ¦       +---makefont
+        ¦   ¦       ¦       cp1250.map
+        ¦   ¦       ¦       cp1251.map
+        ¦   ¦       ¦       cp1252.map
+        ¦   ¦       ¦       cp1253.map
+        ¦   ¦       ¦       cp1254.map
+        ¦   ¦       ¦       cp1255.map
+        ¦   ¦       ¦       cp1257.map
+        ¦   ¦       ¦       cp1258.map
+        ¦   ¦       ¦       cp874.map
+        ¦   ¦       ¦       iso-8859-1.map
+        ¦   ¦       ¦       iso-8859-11.map
+        ¦   ¦       ¦       iso-8859-15.map
+        ¦   ¦       ¦       iso-8859-16.map
+        ¦   ¦       ¦       iso-8859-2.map
+        ¦   ¦       ¦       iso-8859-4.map
+        ¦   ¦       ¦       iso-8859-5.map
+        ¦   ¦       ¦       iso-8859-7.map
+        ¦   ¦       ¦       iso-8859-9.map
+        ¦   ¦       ¦       koi8-r.map
+        ¦   ¦       ¦       koi8-u.map
+        ¦   ¦       ¦       makefont.php
+        ¦   ¦       ¦       ttfparser.php
+        ¦   ¦       ¦       
+        ¦   ¦       +---tutorial
+        ¦   ¦               20k_c1.txt
+        ¦   ¦               20k_c2.txt
+        ¦   ¦               CevicheOne-Regular-Licence.txt
+        ¦   ¦               CevicheOne-Regular.php
+        ¦   ¦               CevicheOne-Regular.ttf
+        ¦   ¦               CevicheOne-Regular.z
+        ¦   ¦               countries.txt
+        ¦   ¦               index.htm
+        ¦   ¦               logo.png
+        ¦   ¦               makefont.php
+        ¦   ¦               tuto1.htm
+        ¦   ¦               tuto1.php
+        ¦   ¦               tuto2.htm
+        ¦   ¦               tuto2.php
+        ¦   ¦               tuto3.htm
+        ¦   ¦               tuto3.php
+        ¦   ¦               tuto4.htm
+        ¦   ¦               tuto4.php
+        ¦   ¦               tuto5.htm
+        ¦   ¦               tuto5.php
+        ¦   ¦               tuto6.htm
+        ¦   ¦               tuto6.php
+        ¦   ¦               tuto7.htm
+        ¦   ¦               tuto7.php
+        ¦   ¦               
+        ¦   +---Models
+        ¦   ¦       .gitkeep
+        ¦   ¦       Categorias.php
+        ¦   ¦       Cidades.php
+        ¦   ¦       Clientes.php
+        ¦   ¦       Enderecos.php
+        ¦   ¦       Entrega.php
+        ¦   ¦       Estoque.php
+        ¦   ¦       Funcionarios.php
+        ¦   ¦       Imgprodutos.php
+        ¦   ¦       Itens_pedido.php
+        ¦   ¦       Itens_venda.php
+        ¦   ¦       Pedidos.php
+        ¦   ¦       Produtos.php
+        ¦   ¦       Usuarios.php
+        ¦   ¦       Vendas.php
+        ¦   ¦       
+        ¦   +---ThirdParty
+        ¦   ¦       .gitkeep
+        ¦   ¦       
+        ¦   +---Views
+        ¦       ¦   index.php
+        ¦       ¦   login.php
+        ¦       ¦   Templates.php
+        ¦       ¦   Templates_admin.php
+        ¦       ¦   Templates_funcionario.php
+        ¦       ¦   Templates_user.php
+        ¦       ¦   
+        ¦       +---admin
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---carrinho
+        ¦       ¦       checkout.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---categorias
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---cidades
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---cidades2
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---clientes
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---enderecos
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---entregas
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---errors
+        ¦       ¦   +---cli
+        ¦       ¦   ¦       error_404.php
+        ¦       ¦   ¦       error_exception.php
+        ¦       ¦   ¦       production.php
+        ¦       ¦   ¦       
+        ¦       ¦   +---html
+        ¦       ¦           debug.css
+        ¦       ¦           debug.js
+        ¦       ¦           error_400.php
+        ¦       ¦           error_404.php
+        ¦       ¦           error_exception.php
+        ¦       ¦           production.php
+        ¦       ¦           
+        ¦       +---estoques
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---funcionario
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---funcionarios
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---home
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---Imgprodutos
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---login
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---pedidos
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       show.php
+        ¦       ¦       
+        ¦       +---produtos
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---templates
+        ¦       ¦       carousel.php
+        ¦       ¦       contato.php
+        ¦       ¦       end.php
+        ¦       ¦       footer.php
+        ¦       ¦       header.php
+        ¦       ¦       index.php
+        ¦       ¦       nav.php
+        ¦       ¦       nav_admin.php
+        ¦       ¦       nav_funcionario.php
+        ¦       ¦       nav_user.php
+        ¦       ¦       produtos.php
+        ¦       ¦       sobre.php
+        ¦       ¦       
+        ¦       +---user
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---usuarios
+        ¦       ¦       edit_nivel.php
+        ¦       ¦       edit_senha.php
+        ¦       ¦       form.php
+        ¦       ¦       index.php
+        ¦       ¦       
+        ¦       +---vendas
+        ¦               form.php
+        ¦               index.php
+        ¦               show.php
+        ¦               
+        +---public
+        ¦   ¦   .htaccess
+        ¦   ¦   favicon.ico
+        ¦   ¦   index.php
+        ¦   ¦   robots.txt
+        ¦   ¦   
+        ¦   +---assets
+        ¦       +---css
+        ¦       ¦       style.css
+        ¦       ¦       
+        ¦       +---images
+        ¦       ¦       chicago.jpg
+        ¦       ¦       empresa.png
+        ¦       ¦       hamburguer1.png
+        ¦       ¦       hamburguer2.png
+        ¦       ¦       hamburguer3.png
+        ¦       ¦       hamburguer4.png
+        ¦       ¦       hamburguer5.png
+        ¦       ¦       la.jpg
+        ¦       ¦       ny.jpg
+        ¦       ¦       pizza1.png
+        ¦       ¦       pizza2.png
+        ¦       ¦       pizza3.png
+        ¦       ¦       pizza4.png
+        ¦       ¦       sd_logo.png
+        ¦       ¦       
+        ¦       +---uploads
+        ¦           +---20250617
+        ¦                   1750182817_38fc74f55a4ad999c801.webp
+        ¦                   1750184363_3b611e9f8e0b8e8147a6.jpg
+        ¦                   1750186447_4d9614ff25ee97cc912d.jpg
+        ¦                   
+        +---system
+        ¦   ¦   .htaccess
+        ¦   ¦   BaseModel.php
+        ¦   ¦   Boot.php
+        ¦   ¦   bootstrap.php
+        ¦   ¦   CodeIgniter.php
+        ¦   ¦   Common.php
+        ¦   ¦   ComposerScripts.php
+        ¦   ¦   Controller.php
+        ¦   ¦   index.html
+        ¦   ¦   Model.php
+        ¦   ¦   rewrite.php
+        ¦   ¦   Superglobals.php
+        ¦   ¦   
+        ¦   +---API
+        ¦   ¦       ResponseTrait.php
+        ¦   ¦       
+        ¦   +---Autoloader
+        ¦   ¦       Autoloader.php
+        ¦   ¦       FileLocator.php
+        ¦   ¦       FileLocatorCached.php
+        ¦   ¦       FileLocatorInterface.php
+        ¦   ¦       
+        ¦   +---Cache
+        ¦   ¦   ¦   CacheFactory.php
+        ¦   ¦   ¦   CacheInterface.php
+        ¦   ¦   ¦   FactoriesCache.php
+        ¦   ¦   ¦   ResponseCache.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦   ¦       CacheException.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---FactoriesCache
+        ¦   ¦   ¦       FileVarExportHandler.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Handlers
+        ¦   ¦           BaseHandler.php
+        ¦   ¦           DummyHandler.php
+        ¦   ¦           FileHandler.php
+        ¦   ¦           MemcachedHandler.php
+        ¦   ¦           PredisHandler.php
+        ¦   ¦           RedisHandler.php
+        ¦   ¦           WincacheHandler.php
+        ¦   ¦           
+        ¦   +---CLI
+        ¦   ¦   ¦   BaseCommand.php
+        ¦   ¦   ¦   CLI.php
+        ¦   ¦   ¦   Commands.php
+        ¦   ¦   ¦   Console.php
+        ¦   ¦   ¦   GeneratorTrait.php
+        ¦   ¦   ¦   InputOutput.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦           CLIException.php
+        ¦   ¦           
+        ¦   +---Commands
+        ¦   ¦   ¦   Help.php
+        ¦   ¦   ¦   ListCommands.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Cache
+        ¦   ¦   ¦       ClearCache.php
+        ¦   ¦   ¦       InfoCache.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Database
+        ¦   ¦   ¦       CreateDatabase.php
+        ¦   ¦   ¦       Migrate.php
+        ¦   ¦   ¦       MigrateRefresh.php
+        ¦   ¦   ¦       MigrateRollback.php
+        ¦   ¦   ¦       MigrateStatus.php
+        ¦   ¦   ¦       Seed.php
+        ¦   ¦   ¦       ShowTableInfo.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Encryption
+        ¦   ¦   ¦       GenerateKey.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Generators
+        ¦   ¦   ¦   ¦   CellGenerator.php
+        ¦   ¦   ¦   ¦   CommandGenerator.php
+        ¦   ¦   ¦   ¦   ConfigGenerator.php
+        ¦   ¦   ¦   ¦   ControllerGenerator.php
+        ¦   ¦   ¦   ¦   EntityGenerator.php
+        ¦   ¦   ¦   ¦   FilterGenerator.php
+        ¦   ¦   ¦   ¦   MigrationGenerator.php
+        ¦   ¦   ¦   ¦   ModelGenerator.php
+        ¦   ¦   ¦   ¦   ScaffoldGenerator.php
+        ¦   ¦   ¦   ¦   SeederGenerator.php
+        ¦   ¦   ¦   ¦   TestGenerator.php
+        ¦   ¦   ¦   ¦   ValidationGenerator.php
+        ¦   ¦   ¦   ¦   
+        ¦   ¦   ¦   +---Views
+        ¦   ¦   ¦           cell.tpl.php
+        ¦   ¦   ¦           cell_view.tpl.php
+        ¦   ¦   ¦           command.tpl.php
+        ¦   ¦   ¦           config.tpl.php
+        ¦   ¦   ¦           controller.tpl.php
+        ¦   ¦   ¦           entity.tpl.php
+        ¦   ¦   ¦           filter.tpl.php
+        ¦   ¦   ¦           migration.tpl.php
+        ¦   ¦   ¦           model.tpl.php
+        ¦   ¦   ¦           seeder.tpl.php
+        ¦   ¦   ¦           test.tpl.php
+        ¦   ¦   ¦           validation.tpl.php
+        ¦   ¦   ¦           
+        ¦   ¦   +---Housekeeping
+        ¦   ¦   ¦       ClearDebugbar.php
+        ¦   ¦   ¦       ClearLogs.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Server
+        ¦   ¦   ¦       Serve.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Translation
+        ¦   ¦   ¦       LocalizationFinder.php
+        ¦   ¦   ¦       LocalizationSync.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Utilities
+        ¦   ¦       ¦   ConfigCheck.php
+        ¦   ¦       ¦   Environment.php
+        ¦   ¦       ¦   FilterCheck.php
+        ¦   ¦       ¦   Namespaces.php
+        ¦   ¦       ¦   Optimize.php
+        ¦   ¦       ¦   PhpIniCheck.php
+        ¦   ¦       ¦   Publish.php
+        ¦   ¦       ¦   Routes.php
+        ¦   ¦       ¦   
+        ¦   ¦       +---Routes
+        ¦   ¦           ¦   AutoRouteCollector.php
+        ¦   ¦           ¦   ControllerFinder.php
+        ¦   ¦           ¦   ControllerMethodReader.php
+        ¦   ¦           ¦   FilterCollector.php
+        ¦   ¦           ¦   FilterFinder.php
+        ¦   ¦           ¦   SampleURIGenerator.php
+        ¦   ¦           ¦   
+        ¦   ¦           +---AutoRouterImproved
+        ¦   ¦                   AutoRouteCollector.php
+        ¦   ¦                   ControllerMethodReader.php
+        ¦   ¦                   
+        ¦   +---Config
+        ¦   ¦       AutoloadConfig.php
+        ¦   ¦       BaseConfig.php
+        ¦   ¦       BaseService.php
+        ¦   ¦       DotEnv.php
+        ¦   ¦       Factories.php
+        ¦   ¦       Factory.php
+        ¦   ¦       Filters.php
+        ¦   ¦       ForeignCharacters.php
+        ¦   ¦       Publisher.php
+        ¦   ¦       Routing.php
+        ¦   ¦       Services.php
+        ¦   ¦       View.php
+        ¦   ¦       
+        ¦   +---Cookie
+        ¦   ¦   ¦   CloneableCookieInterface.php
+        ¦   ¦   ¦   Cookie.php
+        ¦   ¦   ¦   CookieInterface.php
+        ¦   ¦   ¦   CookieStore.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦           CookieException.php
+        ¦   ¦           
+        ¦   +---Database
+        ¦   ¦   ¦   BaseBuilder.php
+        ¦   ¦   ¦   BaseConnection.php
+        ¦   ¦   ¦   BasePreparedQuery.php
+        ¦   ¦   ¦   BaseResult.php
+        ¦   ¦   ¦   BaseUtils.php
+        ¦   ¦   ¦   Config.php
+        ¦   ¦   ¦   ConnectionInterface.php
+        ¦   ¦   ¦   Database.php
+        ¦   ¦   ¦   Forge.php
+        ¦   ¦   ¦   Migration.php
+        ¦   ¦   ¦   MigrationRunner.php
+        ¦   ¦   ¦   PreparedQueryInterface.php
+        ¦   ¦   ¦   Query.php
+        ¦   ¦   ¦   QueryInterface.php
+        ¦   ¦   ¦   RawSql.php
+        ¦   ¦   ¦   ResultInterface.php
+        ¦   ¦   ¦   Seeder.php
+        ¦   ¦   ¦   TableName.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦   ¦       DatabaseException.php
+        ¦   ¦   ¦       DataException.php
+        ¦   ¦   ¦       ExceptionInterface.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---MySQLi
+        ¦   ¦   ¦       Builder.php
+        ¦   ¦   ¦       Connection.php
+        ¦   ¦   ¦       Forge.php
+        ¦   ¦   ¦       PreparedQuery.php
+        ¦   ¦   ¦       Result.php
+        ¦   ¦   ¦       Utils.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---OCI8
+        ¦   ¦   ¦       Builder.php
+        ¦   ¦   ¦       Connection.php
+        ¦   ¦   ¦       Forge.php
+        ¦   ¦   ¦       PreparedQuery.php
+        ¦   ¦   ¦       Result.php
+        ¦   ¦   ¦       Utils.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Postgre
+        ¦   ¦   ¦       Builder.php
+        ¦   ¦   ¦       Connection.php
+        ¦   ¦   ¦       Forge.php
+        ¦   ¦   ¦       PreparedQuery.php
+        ¦   ¦   ¦       Result.php
+        ¦   ¦   ¦       Utils.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---SQLite3
+        ¦   ¦   ¦       Builder.php
+        ¦   ¦   ¦       Connection.php
+        ¦   ¦   ¦       Forge.php
+        ¦   ¦   ¦       PreparedQuery.php
+        ¦   ¦   ¦       Result.php
+        ¦   ¦   ¦       Table.php
+        ¦   ¦   ¦       Utils.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---SQLSRV
+        ¦   ¦           Builder.php
+        ¦   ¦           Connection.php
+        ¦   ¦           Forge.php
+        ¦   ¦           PreparedQuery.php
+        ¦   ¦           Result.php
+        ¦   ¦           Utils.php
+        ¦   ¦           
+        ¦   +---DataCaster
+        ¦   ¦   ¦   DataCaster.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Cast
+        ¦   ¦   ¦       ArrayCast.php
+        ¦   ¦   ¦       BaseCast.php
+        ¦   ¦   ¦       BooleanCast.php
+        ¦   ¦   ¦       CastInterface.php
+        ¦   ¦   ¦       CSVCast.php
+        ¦   ¦   ¦       DatetimeCast.php
+        ¦   ¦   ¦       FloatCast.php
+        ¦   ¦   ¦       IntBoolCast.php
+        ¦   ¦   ¦       IntegerCast.php
+        ¦   ¦   ¦       JsonCast.php
+        ¦   ¦   ¦       TimestampCast.php
+        ¦   ¦   ¦       URICast.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Exceptions
+        ¦   ¦           CastException.php
+        ¦   ¦           
+        ¦   +---DataConverter
+        ¦   ¦       DataConverter.php
+        ¦   ¦       
+        ¦   +---Debug
+        ¦   ¦   ¦   BaseExceptionHandler.php
+        ¦   ¦   ¦   ExceptionHandler.php
+        ¦   ¦   ¦   ExceptionHandlerInterface.php
+        ¦   ¦   ¦   Exceptions.php
+        ¦   ¦   ¦   Iterator.php
+        ¦   ¦   ¦   Timer.php
+        ¦   ¦   ¦   Toolbar.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Toolbar
+        ¦   ¦       +---Collectors
+        ¦   ¦       ¦       BaseCollector.php
+        ¦   ¦       ¦       Config.php
+        ¦   ¦       ¦       Database.php
+        ¦   ¦       ¦       Events.php
+        ¦   ¦       ¦       Files.php
+        ¦   ¦       ¦       History.php
+        ¦   ¦       ¦       Logs.php
+        ¦   ¦       ¦       Routes.php
+        ¦   ¦       ¦       Timers.php
+        ¦   ¦       ¦       Views.php
+        ¦   ¦       ¦       
+        ¦   ¦       +---Views
+        ¦   ¦               toolbar.css
+        ¦   ¦               toolbar.js
+        ¦   ¦               toolbar.tpl.php
+        ¦   ¦               toolbarloader.js
+        ¦   ¦               _config.tpl
+        ¦   ¦               _database.tpl
+        ¦   ¦               _events.tpl
+        ¦   ¦               _files.tpl
+        ¦   ¦               _history.tpl
+        ¦   ¦               _logs.tpl
+        ¦   ¦               _routes.tpl
+        ¦   ¦               
+        ¦   +---Email
+        ¦   ¦       Email.php
+        ¦   ¦       
+        ¦   +---Encryption
+        ¦   ¦   ¦   EncrypterInterface.php
+        ¦   ¦   ¦   Encryption.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦   ¦       EncryptionException.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Handlers
+        ¦   ¦           BaseHandler.php
+        ¦   ¦           OpenSSLHandler.php
+        ¦   ¦           SodiumHandler.php
+        ¦   ¦           
+        ¦   +---Entity
+        ¦   ¦   ¦   Entity.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Cast
+        ¦   ¦   ¦       ArrayCast.php
+        ¦   ¦   ¦       BaseCast.php
+        ¦   ¦   ¦       BooleanCast.php
+        ¦   ¦   ¦       CastInterface.php
+        ¦   ¦   ¦       CSVCast.php
+        ¦   ¦   ¦       DatetimeCast.php
+        ¦   ¦   ¦       FloatCast.php
+        ¦   ¦   ¦       IntBoolCast.php
+        ¦   ¦   ¦       IntegerCast.php
+        ¦   ¦   ¦       JsonCast.php
+        ¦   ¦   ¦       ObjectCast.php
+        ¦   ¦   ¦       StringCast.php
+        ¦   ¦   ¦       TimestampCast.php
+        ¦   ¦   ¦       URICast.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Exceptions
+        ¦   ¦           CastException.php
+        ¦   ¦           
+        ¦   +---Events
+        ¦   ¦       Events.php
+        ¦   ¦       
+        ¦   +---Exceptions
+        ¦   ¦       BadFunctionCallException.php
+        ¦   ¦       BadMethodCallException.php
+        ¦   ¦       ConfigException.php
+        ¦   ¦       CriticalError.php
+        ¦   ¦       DebugTraceableTrait.php
+        ¦   ¦       DownloadException.php
+        ¦   ¦       ExceptionInterface.php
+        ¦   ¦       FrameworkException.php
+        ¦   ¦       HasExitCodeInterface.php
+        ¦   ¦       HTTPExceptionInterface.php
+        ¦   ¦       InvalidArgumentException.php
+        ¦   ¦       LogicException.php
+        ¦   ¦       ModelException.php
+        ¦   ¦       PageNotFoundException.php
+        ¦   ¦       RuntimeException.php
+        ¦   ¦       TestException.php
+        ¦   ¦       
+        ¦   +---Files
+        ¦   ¦   ¦   File.php
+        ¦   ¦   ¦   FileCollection.php
+        ¦   ¦   ¦   FileSizeUnit.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦           ExceptionInterface.php
+        ¦   ¦           FileException.php
+        ¦   ¦           FileNotFoundException.php
+        ¦   ¦           
+        ¦   +---Filters
+        ¦   ¦   ¦   Cors.php
+        ¦   ¦   ¦   CSRF.php
+        ¦   ¦   ¦   DebugToolbar.php
+        ¦   ¦   ¦   FilterInterface.php
+        ¦   ¦   ¦   Filters.php
+        ¦   ¦   ¦   ForceHTTPS.php
+        ¦   ¦   ¦   Honeypot.php
+        ¦   ¦   ¦   InvalidChars.php
+        ¦   ¦   ¦   PageCache.php
+        ¦   ¦   ¦   PerformanceMetrics.php
+        ¦   ¦   ¦   SecureHeaders.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦           FilterException.php
+        ¦   ¦           
+        ¦   +---Format
+        ¦   ¦   ¦   Format.php
+        ¦   ¦   ¦   FormatterInterface.php
+        ¦   ¦   ¦   JSONFormatter.php
+        ¦   ¦   ¦   XMLFormatter.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦           FormatException.php
+        ¦   ¦           
+        ¦   +---Helpers
+        ¦   ¦   ¦   array_helper.php
+        ¦   ¦   ¦   cookie_helper.php
+        ¦   ¦   ¦   date_helper.php
+        ¦   ¦   ¦   filesystem_helper.php
+        ¦   ¦   ¦   form_helper.php
+        ¦   ¦   ¦   html_helper.php
+        ¦   ¦   ¦   inflector_helper.php
+        ¦   ¦   ¦   kint_helper.php
+        ¦   ¦   ¦   number_helper.php
+        ¦   ¦   ¦   security_helper.php
+        ¦   ¦   ¦   test_helper.php
+        ¦   ¦   ¦   text_helper.php
+        ¦   ¦   ¦   url_helper.php
+        ¦   ¦   ¦   xml_helper.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Array
+        ¦   ¦           ArrayHelper.php
+        ¦   ¦           
+        ¦   +---Honeypot
+        ¦   ¦   ¦   Honeypot.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦           HoneypotException.php
+        ¦   ¦           
+        ¦   +---HotReloader
+        ¦   ¦       DirectoryHasher.php
+        ¦   ¦       HotReloader.php
+        ¦   ¦       IteratorFilter.php
+        ¦   ¦       
+        ¦   +---HTTP
+        ¦   ¦   ¦   CLIRequest.php
+        ¦   ¦   ¦   ContentSecurityPolicy.php
+        ¦   ¦   ¦   Cors.php
+        ¦   ¦   ¦   CURLRequest.php
+        ¦   ¦   ¦   DownloadResponse.php
+        ¦   ¦   ¦   Header.php
+        ¦   ¦   ¦   IncomingRequest.php
+        ¦   ¦   ¦   Message.php
+        ¦   ¦   ¦   MessageInterface.php
+        ¦   ¦   ¦   MessageTrait.php
+        ¦   ¦   ¦   Method.php
+        ¦   ¦   ¦   Negotiate.php
+        ¦   ¦   ¦   OutgoingRequest.php
+        ¦   ¦   ¦   OutgoingRequestInterface.php
+        ¦   ¦   ¦   RedirectResponse.php
+        ¦   ¦   ¦   Request.php
+        ¦   ¦   ¦   RequestInterface.php
+        ¦   ¦   ¦   RequestTrait.php
+        ¦   ¦   ¦   ResponsableInterface.php
+        ¦   ¦   ¦   Response.php
+        ¦   ¦   ¦   ResponseInterface.php
+        ¦   ¦   ¦   ResponseTrait.php
+        ¦   ¦   ¦   SiteURI.php
+        ¦   ¦   ¦   SiteURIFactory.php
+        ¦   ¦   ¦   URI.php
+        ¦   ¦   ¦   UserAgent.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦   ¦       BadRequestException.php
+        ¦   ¦   ¦       ExceptionInterface.php
+        ¦   ¦   ¦       HTTPException.php
+        ¦   ¦   ¦       RedirectException.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Files
+        ¦   ¦           FileCollection.php
+        ¦   ¦           UploadedFile.php
+        ¦   ¦           UploadedFileInterface.php
+        ¦   ¦           
+        ¦   +---I18n
+        ¦   ¦   ¦   Time.php
+        ¦   ¦   ¦   TimeDifference.php
+        ¦   ¦   ¦   TimeLegacy.php
+        ¦   ¦   ¦   TimeTrait.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦           I18nException.php
+        ¦   ¦           
+        ¦   +---Images
+        ¦   ¦   ¦   Image.php
+        ¦   ¦   ¦   ImageHandlerInterface.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦   ¦       ImageException.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Handlers
+        ¦   ¦           BaseHandler.php
+        ¦   ¦           GDHandler.php
+        ¦   ¦           ImageMagickHandler.php
+        ¦   ¦           
+        ¦   +---Language
+        ¦   ¦   ¦   Language.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---en
+        ¦   ¦           Cache.php
+        ¦   ¦           Cast.php
+        ¦   ¦           CLI.php
+        ¦   ¦           Cookie.php
+        ¦   ¦           Core.php
+        ¦   ¦           Database.php
+        ¦   ¦           Email.php
+        ¦   ¦           Encryption.php
+        ¦   ¦           Errors.php
+        ¦   ¦           Fabricator.php
+        ¦   ¦           Files.php
+        ¦   ¦           Filters.php
+        ¦   ¦           Format.php
+        ¦   ¦           HTTP.php
+        ¦   ¦           Images.php
+        ¦   ¦           Language.php
+        ¦   ¦           Log.php
+        ¦   ¦           Migrations.php
+        ¦   ¦           Number.php
+        ¦   ¦           Pager.php
+        ¦   ¦           Publisher.php
+        ¦   ¦           RESTful.php
+        ¦   ¦           Router.php
+        ¦   ¦           Security.php
+        ¦   ¦           Session.php
+        ¦   ¦           Test.php
+        ¦   ¦           Time.php
+        ¦   ¦           Validation.php
+        ¦   ¦           View.php
+        ¦   ¦           
+        ¦   +---Log
+        ¦   ¦   ¦   Logger.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦   ¦       LogException.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Handlers
+        ¦   ¦           BaseHandler.php
+        ¦   ¦           ChromeLoggerHandler.php
+        ¦   ¦           ErrorlogHandler.php
+        ¦   ¦           FileHandler.php
+        ¦   ¦           HandlerInterface.php
+        ¦   ¦           
+        ¦   +---Modules
+        ¦   ¦       Modules.php
+        ¦   ¦       
+        ¦   +---Pager
+        ¦   ¦   ¦   Pager.php
+        ¦   ¦   ¦   PagerInterface.php
+        ¦   ¦   ¦   PagerRenderer.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦   ¦       PagerException.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Views
+        ¦   ¦           default_full.php
+        ¦   ¦           default_head.php
+        ¦   ¦           default_simple.php
+        ¦   ¦           
+        ¦   +---Publisher
+        ¦   ¦   ¦   ContentReplacer.php
+        ¦   ¦   ¦   Publisher.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦           PublisherException.php
+        ¦   ¦           
+        ¦   +---RESTful
+        ¦   ¦       BaseResource.php
+        ¦   ¦       ResourceController.php
+        ¦   ¦       ResourcePresenter.php
+        ¦   ¦       
+        ¦   +---Router
+        ¦   ¦   ¦   AutoRouter.php
+        ¦   ¦   ¦   AutoRouterImproved.php
+        ¦   ¦   ¦   AutoRouterInterface.php
+        ¦   ¦   ¦   DefinedRouteCollector.php
+        ¦   ¦   ¦   RouteCollection.php
+        ¦   ¦   ¦   RouteCollectionInterface.php
+        ¦   ¦   ¦   Router.php
+        ¦   ¦   ¦   RouterInterface.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦           ExceptionInterface.php
+        ¦   ¦           MethodNotFoundException.php
+        ¦   ¦           RouterException.php
+        ¦   ¦           
+        ¦   +---Security
+        ¦   ¦   ¦   CheckPhpIni.php
+        ¦   ¦   ¦   Security.php
+        ¦   ¦   ¦   SecurityInterface.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦           SecurityException.php
+        ¦   ¦           
+        ¦   +---Session
+        ¦   ¦   ¦   Session.php
+        ¦   ¦   ¦   SessionInterface.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦   ¦       SessionException.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Handlers
+        ¦   ¦       ¦   ArrayHandler.php
+        ¦   ¦       ¦   BaseHandler.php
+        ¦   ¦       ¦   DatabaseHandler.php
+        ¦   ¦       ¦   FileHandler.php
+        ¦   ¦       ¦   MemcachedHandler.php
+        ¦   ¦       ¦   RedisHandler.php
+        ¦   ¦       ¦   
+        ¦   ¦       +---Database
+        ¦   ¦               MySQLiHandler.php
+        ¦   ¦               PostgreHandler.php
+        ¦   ¦               
+        ¦   +---Test
+        ¦   ¦   ¦   bootstrap.php
+        ¦   ¦   ¦   CIUnitTestCase.php
+        ¦   ¦   ¦   ConfigFromArrayTrait.php
+        ¦   ¦   ¦   ControllerTestTrait.php
+        ¦   ¦   ¦   DatabaseTestTrait.php
+        ¦   ¦   ¦   DOMParser.php
+        ¦   ¦   ¦   Fabricator.php
+        ¦   ¦   ¦   FeatureTestTrait.php
+        ¦   ¦   ¦   FilterTestTrait.php
+        ¦   ¦   ¦   IniTestTrait.php
+        ¦   ¦   ¦   PhpStreamWrapper.php
+        ¦   ¦   ¦   ReflectionHelper.php
+        ¦   ¦   ¦   StreamFilterTrait.php
+        ¦   ¦   ¦   TestLogger.php
+        ¦   ¦   ¦   TestResponse.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Constraints
+        ¦   ¦   ¦       SeeInDatabase.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Filters
+        ¦   ¦   ¦       CITestStreamFilter.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Interfaces
+        ¦   ¦   ¦       FabricatorModel.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Mock
+        ¦   ¦           MockAppConfig.php
+        ¦   ¦           MockAutoload.php
+        ¦   ¦           MockBuilder.php
+        ¦   ¦           MockCache.php
+        ¦   ¦           MockCLIConfig.php
+        ¦   ¦           MockCodeIgniter.php
+        ¦   ¦           MockCommon.php
+        ¦   ¦           MockConnection.php
+        ¦   ¦           MockCURLRequest.php
+        ¦   ¦           MockEmail.php
+        ¦   ¦           MockEvents.php
+        ¦   ¦           MockFileLogger.php
+        ¦   ¦           MockIncomingRequest.php
+        ¦   ¦           MockInputOutput.php
+        ¦   ¦           MockLanguage.php
+        ¦   ¦           MockLogger.php
+        ¦   ¦           MockQuery.php
+        ¦   ¦           MockResourceController.php
+        ¦   ¦           MockResourcePresenter.php
+        ¦   ¦           MockResponse.php
+        ¦   ¦           MockResult.php
+        ¦   ¦           MockSecurity.php
+        ¦   ¦           MockServices.php
+        ¦   ¦           MockSession.php
+        ¦   ¦           MockTable.php
+        ¦   ¦           
+        ¦   +---ThirdParty
+        ¦   ¦   +---Escaper
+        ¦   ¦   ¦   ¦   Escaper.php
+        ¦   ¦   ¦   ¦   LICENSE.md
+        ¦   ¦   ¦   ¦   
+        ¦   ¦   ¦   +---Exception
+        ¦   ¦   ¦           ExceptionInterface.php
+        ¦   ¦   ¦           InvalidArgumentException.php
+        ¦   ¦   ¦           RuntimeException.php
+        ¦   ¦   ¦           
+        ¦   ¦   +---Kint
+        ¦   ¦   ¦   ¦   CallFinder.php
+        ¦   ¦   ¦   ¦   FacadeInterface.php
+        ¦   ¦   ¦   ¦   init.php
+        ¦   ¦   ¦   ¦   init_helpers.php
+        ¦   ¦   ¦   ¦   Kint.php
+        ¦   ¦   ¦   ¦   LICENSE
+        ¦   ¦   ¦   ¦   Utils.php
+        ¦   ¦   ¦   ¦   
+        ¦   ¦   ¦   +---Parser
+        ¦   ¦   ¦   ¦       AbstractPlugin.php
+        ¦   ¦   ¦   ¦       ArrayLimitPlugin.php
+        ¦   ¦   ¦   ¦       ArrayObjectPlugin.php
+        ¦   ¦   ¦   ¦       Base64Plugin.php
+        ¦   ¦   ¦   ¦       BinaryPlugin.php
+        ¦   ¦   ¦   ¦       BlacklistPlugin.php
+        ¦   ¦   ¦   ¦       ClassHooksPlugin.php
+        ¦   ¦   ¦   ¦       ClassMethodsPlugin.php
+        ¦   ¦   ¦   ¦       ClassStaticsPlugin.php
+        ¦   ¦   ¦   ¦       ClassStringsPlugin.php
+        ¦   ¦   ¦   ¦       ClosurePlugin.php
+        ¦   ¦   ¦   ¦       ColorPlugin.php
+        ¦   ¦   ¦   ¦       ConstructablePluginInterface.php
+        ¦   ¦   ¦   ¦       DateTimePlugin.php
+        ¦   ¦   ¦   ¦       DomPlugin.php
+        ¦   ¦   ¦   ¦       EnumPlugin.php
+        ¦   ¦   ¦   ¦       FsPathPlugin.php
+        ¦   ¦   ¦   ¦       HtmlPlugin.php
+        ¦   ¦   ¦   ¦       IteratorPlugin.php
+        ¦   ¦   ¦   ¦       JsonPlugin.php
+        ¦   ¦   ¦   ¦       MicrotimePlugin.php
+        ¦   ¦   ¦   ¦       MysqliPlugin.php
+        ¦   ¦   ¦   ¦       Parser.php
+        ¦   ¦   ¦   ¦       PluginBeginInterface.php
+        ¦   ¦   ¦   ¦       PluginCompleteInterface.php
+        ¦   ¦   ¦   ¦       PluginInterface.php
+        ¦   ¦   ¦   ¦       ProfilePlugin.php
+        ¦   ¦   ¦   ¦       ProxyPlugin.php
+        ¦   ¦   ¦   ¦       SerializePlugin.php
+        ¦   ¦   ¦   ¦       SimpleXMLElementPlugin.php
+        ¦   ¦   ¦   ¦       SplFileInfoPlugin.php
+        ¦   ¦   ¦   ¦       StreamPlugin.php
+        ¦   ¦   ¦   ¦       TablePlugin.php
+        ¦   ¦   ¦   ¦       ThrowablePlugin.php
+        ¦   ¦   ¦   ¦       TimestampPlugin.php
+        ¦   ¦   ¦   ¦       ToStringPlugin.php
+        ¦   ¦   ¦   ¦       TracePlugin.php
+        ¦   ¦   ¦   ¦       XmlPlugin.php
+        ¦   ¦   ¦   ¦       
+        ¦   ¦   ¦   +---Renderer
+        ¦   ¦   ¦   ¦   ¦   AbstractRenderer.php
+        ¦   ¦   ¦   ¦   ¦   AssetRendererTrait.php
+        ¦   ¦   ¦   ¦   ¦   CliRenderer.php
+        ¦   ¦   ¦   ¦   ¦   ConstructableRendererInterface.php
+        ¦   ¦   ¦   ¦   ¦   PlainRenderer.php
+        ¦   ¦   ¦   ¦   ¦   RendererInterface.php
+        ¦   ¦   ¦   ¦   ¦   RichRenderer.php
+        ¦   ¦   ¦   ¦   ¦   TextRenderer.php
+        ¦   ¦   ¦   ¦   ¦   
+        ¦   ¦   ¦   ¦   +---Rich
+        ¦   ¦   ¦   ¦   ¦       AbstractPlugin.php
+        ¦   ¦   ¦   ¦   ¦       BinaryPlugin.php
+        ¦   ¦   ¦   ¦   ¦       CallableDefinitionPlugin.php
+        ¦   ¦   ¦   ¦   ¦       CallablePlugin.php
+        ¦   ¦   ¦   ¦   ¦       ColorPlugin.php
+        ¦   ¦   ¦   ¦   ¦       LockPlugin.php
+        ¦   ¦   ¦   ¦   ¦       MicrotimePlugin.php
+        ¦   ¦   ¦   ¦   ¦       PluginInterface.php
+        ¦   ¦   ¦   ¦   ¦       ProfilePlugin.php
+        ¦   ¦   ¦   ¦   ¦       SourcePlugin.php
+        ¦   ¦   ¦   ¦   ¦       TablePlugin.php
+        ¦   ¦   ¦   ¦   ¦       TabPluginInterface.php
+        ¦   ¦   ¦   ¦   ¦       TraceFramePlugin.php
+        ¦   ¦   ¦   ¦   ¦       ValuePluginInterface.php
+        ¦   ¦   ¦   ¦   ¦       
+        ¦   ¦   ¦   ¦   +---Text
+        ¦   ¦   ¦   ¦           AbstractPlugin.php
+        ¦   ¦   ¦   ¦           LockPlugin.php
+        ¦   ¦   ¦   ¦           MicrotimePlugin.php
+        ¦   ¦   ¦   ¦           PluginInterface.php
+        ¦   ¦   ¦   ¦           SplFileInfoPlugin.php
+        ¦   ¦   ¦   ¦           TracePlugin.php
+        ¦   ¦   ¦   ¦           
+        ¦   ¦   ¦   +---resources
+        ¦   ¦   ¦   ¦   +---compiled
+        ¦   ¦   ¦   ¦           aante-dark.css
+        ¦   ¦   ¦   ¦           aante-light.css
+        ¦   ¦   ¦   ¦           main.js
+        ¦   ¦   ¦   ¦           original.css
+        ¦   ¦   ¦   ¦           plain.css
+        ¦   ¦   ¦   ¦           solarized-dark.css
+        ¦   ¦   ¦   ¦           solarized.css
+        ¦   ¦   ¦   ¦           
+        ¦   ¦   ¦   +---Value
+        ¦   ¦   ¦       ¦   AbstractValue.php
+        ¦   ¦   ¦       ¦   ArrayValue.php
+        ¦   ¦   ¦       ¦   ClosedResourceValue.php
+        ¦   ¦   ¦       ¦   ClosureValue.php
+        ¦   ¦   ¦       ¦   ColorValue.php
+        ¦   ¦   ¦       ¦   DateTimeValue.php
+        ¦   ¦   ¦       ¦   DeclaredCallableBag.php
+        ¦   ¦   ¦       ¦   DomNodeListValue.php
+        ¦   ¦   ¦       ¦   DomNodeValue.php
+        ¦   ¦   ¦       ¦   EnumValue.php
+        ¦   ¦   ¦       ¦   FixedWidthValue.php
+        ¦   ¦   ¦       ¦   FunctionValue.php
+        ¦   ¦   ¦       ¦   InstanceValue.php
+        ¦   ¦   ¦       ¦   MethodValue.php
+        ¦   ¦   ¦       ¦   MicrotimeValue.php
+        ¦   ¦   ¦       ¦   ParameterBag.php
+        ¦   ¦   ¦       ¦   ParameterHoldingTrait.php
+        ¦   ¦   ¦       ¦   ResourceValue.php
+        ¦   ¦   ¦       ¦   SimpleXMLElementValue.php
+        ¦   ¦   ¦       ¦   SplFileInfoValue.php
+        ¦   ¦   ¦       ¦   StreamValue.php
+        ¦   ¦   ¦       ¦   StringValue.php
+        ¦   ¦   ¦       ¦   ThrowableValue.php
+        ¦   ¦   ¦       ¦   TraceFrameValue.php
+        ¦   ¦   ¦       ¦   TraceValue.php
+        ¦   ¦   ¦       ¦   UninitializedValue.php
+        ¦   ¦   ¦       ¦   UnknownValue.php
+        ¦   ¦   ¦       ¦   VirtualValue.php
+        ¦   ¦   ¦       ¦   
+        ¦   ¦   ¦       +---Context
+        ¦   ¦   ¦       ¦       ArrayContext.php
+        ¦   ¦   ¦       ¦       BaseContext.php
+        ¦   ¦   ¦       ¦       ClassConstContext.php
+        ¦   ¦   ¦       ¦       ClassDeclaredContext.php
+        ¦   ¦   ¦       ¦       ClassOwnedContext.php
+        ¦   ¦   ¦       ¦       ContextInterface.php
+        ¦   ¦   ¦       ¦       DoubleAccessMemberContext.php
+        ¦   ¦   ¦       ¦       MethodContext.php
+        ¦   ¦   ¦       ¦       PropertyContext.php
+        ¦   ¦   ¦       ¦       StaticPropertyContext.php
+        ¦   ¦   ¦       ¦       
+        ¦   ¦   ¦       +---Representation
+        ¦   ¦   ¦               AbstractRepresentation.php
+        ¦   ¦   ¦               BinaryRepresentation.php
+        ¦   ¦   ¦               CallableDefinitionRepresentation.php
+        ¦   ¦   ¦               ColorRepresentation.php
+        ¦   ¦   ¦               ContainerRepresentation.php
+        ¦   ¦   ¦               MicrotimeRepresentation.php
+        ¦   ¦   ¦               ProfileRepresentation.php
+        ¦   ¦   ¦               RepresentationInterface.php
+        ¦   ¦   ¦               SourceRepresentation.php
+        ¦   ¦   ¦               SplFileInfoRepresentation.php
+        ¦   ¦   ¦               StringRepresentation.php
+        ¦   ¦   ¦               TableRepresentation.php
+        ¦   ¦   ¦               ValueRepresentation.php
+        ¦   ¦   ¦               
+        ¦   ¦   +---PSR
+        ¦   ¦       +---Log
+        ¦   ¦               AbstractLogger.php
+        ¦   ¦               InvalidArgumentException.php
+        ¦   ¦               LICENSE
+        ¦   ¦               LoggerAwareInterface.php
+        ¦   ¦               LoggerAwareTrait.php
+        ¦   ¦               LoggerInterface.php
+        ¦   ¦               LoggerTrait.php
+        ¦   ¦               LogLevel.php
+        ¦   ¦               NullLogger.php
+        ¦   ¦               
+        ¦   +---Throttle
+        ¦   ¦       Throttler.php
+        ¦   ¦       ThrottlerInterface.php
+        ¦   ¦       
+        ¦   +---Traits
+        ¦   ¦       ConditionalTrait.php
+        ¦   ¦       PropertiesTrait.php
+        ¦   ¦       
+        ¦   +---Typography
+        ¦   ¦       Typography.php
+        ¦   ¦       
+        ¦   +---Validation
+        ¦   ¦   ¦   CreditCardRules.php
+        ¦   ¦   ¦   DotArrayFilter.php
+        ¦   ¦   ¦   FileRules.php
+        ¦   ¦   ¦   FormatRules.php
+        ¦   ¦   ¦   Rules.php
+        ¦   ¦   ¦   Validation.php
+        ¦   ¦   ¦   ValidationInterface.php
+        ¦   ¦   ¦   
+        ¦   ¦   +---Exceptions
+        ¦   ¦   ¦       ValidationException.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---StrictRules
+        ¦   ¦   ¦       CreditCardRules.php
+        ¦   ¦   ¦       FileRules.php
+        ¦   ¦   ¦       FormatRules.php
+        ¦   ¦   ¦       Rules.php
+        ¦   ¦   ¦       
+        ¦   ¦   +---Views
+        ¦   ¦           list.php
+        ¦   ¦           single.php
+        ¦   ¦           
+        ¦   +---View
+        ¦       ¦   Cell.php
+        ¦       ¦   Filters.php
+        ¦       ¦   Parser.php
+        ¦       ¦   Plugins.php
+        ¦       ¦   RendererInterface.php
+        ¦       ¦   Table.php
+        ¦       ¦   View.php
+        ¦       ¦   ViewDecoratorInterface.php
+        ¦       ¦   ViewDecoratorTrait.php
+        ¦       ¦   
+        ¦       +---Cells
+        ¦       ¦       Cell.php
+        ¦       ¦       
+        ¦       +---Exceptions
+        ¦               ViewException.php
+        ¦               
+        +---tests
+        ¦   ¦   .htaccess
+        ¦   ¦   index.html
+        ¦   ¦   README.md
+        ¦   ¦   
+        ¦   +---database
+        ¦   ¦       ExampleDatabaseTest.php
+        ¦   ¦       
+        ¦   +---session
+        ¦   ¦       ExampleSessionTest.php
+        ¦   ¦       
+        ¦   +---unit
+        ¦   ¦       HealthTest.php
+        ¦   ¦       
+        ¦   +---_support
+        ¦       +---Database
+        ¦       ¦   +---Migrations
+        ¦       ¦   ¦       2020-02-22-222222_example_migration.php
+        ¦       ¦   ¦       
+        ¦       ¦   +---Seeds
+        ¦       ¦           ExampleSeeder.php
+        ¦       ¦           
+        ¦       +---Libraries
+        ¦       ¦       ConfigReader.php
+        ¦       ¦       
+        ¦       +---Models
+        ¦               ExampleModel.php
+        ¦               
+        +---writable
+            ¦   .htaccess
+            ¦   index.html
+            ¦   
+            +---assets
+            ¦   +---uploads
+            ¦       +---20250423
+            ¦               1745440177_4fe51c216b49d4ab3a2a.jpeg
+            ¦               
+            +---cache
+            ¦       index.html
+            ¦       
+            +---debugbar
+            ¦       debugbar_1750186270.969595.json
+            ¦       debugbar_1750186278.698268.json
+            ¦       debugbar_1750186289.234000.json
+            ¦       debugbar_1750186298.308235.json
+            ¦       debugbar_1750186300.063969.json
+            ¦       debugbar_1750186302.869551.json
+            ¦       debugbar_1750186315.256585.json
+            ¦       debugbar_1750186317.916667.json
+            ¦       debugbar_1750186361.477882.json
+            ¦       debugbar_1750186364.681795.json
+            ¦       debugbar_1750186366.915554.json
+            ¦       debugbar_1750186447.987849.json
+            ¦       debugbar_1750186450.436930.json
+            ¦       debugbar_1750186454.171664.json
+            ¦       debugbar_1750186456.800455.json
+            ¦       debugbar_1750186460.986713.json
+            ¦       debugbar_1750186466.916009.json
+            ¦       debugbar_1750186468.670924.json
+            ¦       debugbar_1750186480.224378.json
+            ¦       debugbar_1750186483.376702.json
+            ¦       
+            +---logs
+            ¦       index.html
+            ¦       log-2025-02-19.log
+            ¦       log-2025-02-20.log
+            ¦       log-2025-02-26.log
+            ¦       log-2025-02-27.log
+            ¦       log-2025-03-12.log
+            ¦       log-2025-03-13.log
+            ¦       log-2025-03-26.log
+            ¦       log-2025-03-27.log
+            ¦       log-2025-04-02.log
+            ¦       log-2025-04-03.log
+            ¦       log-2025-04-09.log
+            ¦       log-2025-04-16.log
+            ¦       log-2025-04-23.log
+            ¦       log-2025-04-24.log
+            ¦       log-2025-05-25.log
+            ¦       log-2025-05-26.log
+            ¦       log-2025-05-31.log
+            ¦       log-2025-06-02.log
+            ¦       log-2025-06-04.log
+            ¦       log-2025-06-05.log
+            ¦       log-2025-06-10.log
+            ¦       log-2025-06-11.log
+            ¦       log-2025-06-12.log
+            ¦       log-2025-06-13.log
+            ¦       log-2025-06-14.log
+            ¦       log-2025-06-15.log
+            ¦       log-2025-06-16.log
+            ¦       log-2025-06-17.log
+            ¦       
+            +---session
+            ¦       ci_session1e012e105dd1e8b2b2fa886b3f0ea470
+            ¦       ci_session2a087fff1ad71138d5fb647b055965c5
+            ¦       ci_session49e72f810925c273d2eb3efbae4db03a
+            ¦       ci_session63d6216b5a2131ab7e0d88cec2bd7238
+            ¦       ci_session68565e6b9c6cf168f403cc2d43cf76e4
+            ¦       ci_sessionba896ecd2a5b09756cae6398dc1cf0f3
+            ¦       ci_sessionc307b3ad600e545c149ab49468f20ae0
+            ¦       ci_sessiond2e32f4e34402ea2d1e954665db7deb8
+            ¦       index.html
+            ¦       
+            +---uploads
+                ¦   index.html
+                ¦   
+                +---20250416
+                ¦       index.html
+                ¦       
+                +---20250423
+                ¦       index.html
+                ¦       
+                +---20250616
+                ¦       index.html
+                ¦       
+                +---20250617
+                        index.html
+                        

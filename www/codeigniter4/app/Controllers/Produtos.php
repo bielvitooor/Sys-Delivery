@@ -135,6 +135,22 @@ class Produtos extends BaseController
         $data['msg'] = msg('Alterado com Sucesso!', 'success');
         $data['produtos'] = $this->produtos->join('categorias', 'produtos_categorias_id = categorias_id')->find();
         $data['title'] = 'Produtos';
+
+                $login = session()->get('login');
+        switch ($login->usuarios_nivel ?? null) {
+            case 1:
+                $template = 'Templates_admin';
+                break;
+            case 3:
+                $template = 'Templates_funcionario';
+                break;
+            case 0:
+                $template = 'Templates_user';
+                break;
+            default:
+                $template = 'Templates'; // visitante ou outros níveis
+        }
+        $data['template'] = $template;
         return view('produtos/index', $data);
     }
 

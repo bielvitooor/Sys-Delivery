@@ -1,3 +1,8 @@
+<?php
+$login = session()->get('login');
+$template = $template ?? 'Templates_admin';
+helper('functions');
+?>
 <?= $this->extend($template) ?>
 <?= $this->section('content') ?>
 
