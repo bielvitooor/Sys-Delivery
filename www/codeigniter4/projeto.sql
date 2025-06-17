@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 17/06/2025 às 08:35
+-- Tempo de geração: 18/06/2025 às 00:08
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -129,13 +129,6 @@ CREATE TABLE `entregas` (
   `data_saiu_entrega` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Despejando dados para a tabela `entregas`
---
-
-INSERT INTO `entregas` (`entrega_id`, `venda_id`, `funcionario_id`, `data_entrega`, `status`, `data_saiu_entrega`) VALUES
-(1, 18, 4, NULL, 'Saiu para Entrega', '2025-06-17 06:33:16');
-
 -- --------------------------------------------------------
 
 --
@@ -191,6 +184,15 @@ CREATE TABLE `imgprodutos` (
   `deleted_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Despejando dados para a tabela `imgprodutos`
+--
+
+INSERT INTO `imgprodutos` (`imgprodutos_id`, `imgprodutos_link`, `imgprodutos_descricao`, `imgprodutos_produtos_id`, `created_at`, `updated_at`, `deleted_at`) VALUES
+(1, 'uploads/20250617/1750182817_38fc74f55a4ad999c801.webp', '', 1, NULL, NULL, NULL),
+(5, 'uploads/20250617/1750184363_3b611e9f8e0b8e8147a6.jpg', '', 2, NULL, NULL, NULL),
+(6, 'uploads/20250617/1750186447_4d9614ff25ee97cc912d.jpg', '', 2, NULL, NULL, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -237,8 +239,7 @@ CREATE TABLE `itens_venda` (
 
 INSERT INTO `itens_venda` (`itens_venda_id`, `vendas_venda_id`, `produtos_produtos_id`, `preco_venda`, `quantidade`) VALUES
 (19, 17, 1, 24.00, 3),
-(20, 17, 2, 12.00, 1),
-(21, 18, 1, 24.00, 1);
+(20, 17, 2, 12.00, 1);
 
 -- --------------------------------------------------------
 
@@ -368,8 +369,7 @@ CREATE TABLE `vendas` (
 --
 
 INSERT INTO `vendas` (`venda_id`, `pedido_id`, `data_venda`) VALUES
-(17, 9, '2025-06-16 18:21:50'),
-(18, 13, '2025-06-17 06:23:52');
+(17, 9, '2025-06-16 18:21:50');
 
 --
 -- Índices para tabelas despejadas
@@ -534,7 +534,7 @@ ALTER TABLE `funcionarios`
 -- AUTO_INCREMENT de tabela `imgprodutos`
 --
 ALTER TABLE `imgprodutos`
-  MODIFY `imgprodutos_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `imgprodutos_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de tabela `itens_pedido`
