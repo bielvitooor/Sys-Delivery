@@ -349,7 +349,7 @@ INSERT INTO `usuarios` (`usuarios_id`, `usuarios_nome`, `usuarios_sobrenome`, `u
 (1, 'Vilson', 'Soares de Siqueira', 'vilsonsoares@gmail.com', '999.999.999-99', 1, '6398474-3380', 'e10adc3949ba59abbe56e057f20f883e', '1981-12-03', '0000-00-00 00:00:00', NULL, NULL, NULL),
 (24, 'Gabriel ', 'Brito', 'gabrielvitorsilvabrito@gmail.com', '12345678901', 3, '62986073404', 'e10adc3949ba59abbe56e057f20f883e', '2004-03-19', NULL, NULL, NULL, NULL),
 (25, 'Warlley Felipe', 'Teste', '12345@gmail.com', '123456', 0, '62986073404', 'e10adc3949ba59abbe56e057f20f883e', '2004-03-19', NULL, NULL, NULL, NULL),
-(26, 'Vanilda ', 'Maria da Silva', 'vanilda@gmail.com', '95150432187', 0, '62984119650', 'fcea920f7412b5da7be0cf42b8c93759', '1977-05-11', NULL, NULL, NULL, NULL);
+(26, 'Vanilda ', 'Maria da Silva', 'vanilda@gmail.com', '00000000000', 0, '62984119650', 'fcea920f7412b5da7be0cf42b8c93759', '1977-05-11', NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
